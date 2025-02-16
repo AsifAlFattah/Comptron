@@ -7,8 +7,8 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="bg-gradient-to-r from-[#fff] to-[#fff] backdrop-blur-lg py-3 px-8 transition-all">
-            <div className="max-w-7xl mx-auto flex items-center justify-between">
+        <nav className="bg-gradient-to-r from-[#fff] to-[#fff] backdrop-blur-lg py-3 transition-all">
+            <div className="mx-auto flex items-center justify-between">
                 {/* Logo Section */}
                 <Link to={'/'} className="flex items-center space-x-2">
                     <img className="w-16 h-16" src="images/Comptron.png" alt="Iral Connect" />
