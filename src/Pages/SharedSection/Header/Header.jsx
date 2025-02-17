@@ -7,7 +7,7 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="bg-gradient-to-r from-[#fff] to-[#fff] backdrop-blur-lg px-3 py-3 transition-all">
+        <nav className="z-50 bg-gradient-to-r from-[#fff] to-[#fff] backdrop-blur-lg px-3 py-3 transition-all">
             <div className="mx-auto flex items-center justify-between">
                 {/* Logo Section */}
                 <Link to={'/'} className="flex items-center space-x-2">
@@ -36,7 +36,7 @@ const Header = () => {
                 <div className="lg:hidden">
                     <button
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className="text-white focus:outline-none"
+                        className="text-[#34275d] focus:outline-none"
                     >
                         {isMenuOpen ? <X size={32} /> : <Menu size={32} />}
                     </button>
@@ -49,7 +49,7 @@ const Header = () => {
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -10 }}
-                    className="lg:hidden absolute top-full left-0 w-full bg-[#16213e] shadow-md py-6 flex flex-col items-center space-y-4"
+                    className="z-50 lg:hidden absolute top-full left-0 w-full bg-[#16213e] shadow-md py-6 flex flex-col items-center space-y-4"
                 >
                     {["Home", "About", "Events", "Gallery", "Contact"].map((item, index) => (
                         <Link
