@@ -1,3 +1,4 @@
+import EventHome from "../SharedSection/EventHome/EventHome";
 import HomeAbout from "../SharedSection/HomeAbout/HomeAbout";
 import HomeBanner from "../SharedSection/HomeBanner/HomeBanner";
 import HomeClubInfo from "../SharedSection/HomeClubInfo/HomeClubInfo";
@@ -8,8 +9,9 @@ const Home = () => {
         <div className="mt-24">
             <HomeBanner></HomeBanner>
             <HomeAbout></HomeAbout>
-            <HomeClubInfo></HomeClubInfo>
+            <EventHome></EventHome>
             <HomeWhyJoin></HomeWhyJoin>
+            <HomeClubInfo></HomeClubInfo>
         </div>
     );
 };
