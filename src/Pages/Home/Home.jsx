@@ -5,7 +5,7 @@ import HomeWhyJoin from "../SharedSection/HomeWhyJoin/HomeWhyJoin";
 
 const Home = () => {
     return (
-        <div className="">
+        <div className="mt-24">
             <HomeBanner></HomeBanner>
             <HomeAbout></HomeAbout>
             <HomeClubInfo></HomeClubInfo>
