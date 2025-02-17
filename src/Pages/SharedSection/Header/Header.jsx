@@ -7,8 +7,8 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#fff] to-[#fff] backdrop-blur-lg px-3 py-3 transition-all">
-            <div className="mx-auto flex items-center justify-between">
+        <nav className="fixed top-0 z-50 w-[90%] bg-gradient-to-r from-[#fff] to-[#fff] backdrop-blur-lg px-3 py-3 transition-all">
+            <div className= "mx-auto flex items-center justify-between">
                 {/* Logo Section */}
                 <Link to={'/'} className="flex items-center space-x-2">
                     <img className="w-16 h-16" src="images/Comptron.png" alt="Iral Connect" />
@@ -61,7 +61,7 @@ const Header = () => {
                             {item}
                         </Link>
                     ))}
-                    <Link to={'/register'} className="block py-2 px-3 bg-blue-400 text-white rounded-sm hover:bg-gray-100 md:hover:bg-blue-600 md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                    <Link to={'/register'} className="block py-2 px-3 bg-blue-400 text-white rounded-sm hover:bg-blue-600 md:hover:bg-blue-600 md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                         Membership
                     </Link>
                 </motion.div>
