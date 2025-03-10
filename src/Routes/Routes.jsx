@@ -3,6 +3,7 @@ import Home from "../Pages/Home/Home";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Root from "../Layouts/Root";
 import Gallery from "../Pages/Gallery/Gallery";
+import About from "../Pages/About/About";
 
 const Routes = createBrowserRouter([
   {
@@ -17,7 +18,11 @@ const Routes = createBrowserRouter([
       {
         path: "/gallery",
         element: <Gallery></Gallery>
-      }
+      },
+      {
+        path: "/about",
+        element: <About></About>
+      },
 
     ]
   },
