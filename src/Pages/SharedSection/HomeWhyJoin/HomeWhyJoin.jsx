@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const HomeWhyJoin = () => {
   return (
-    <div className="text-center py-16 bg-white text-gray-600">
+    <div className="text-center py-16 text-gray-600">
       <motion.h2 
         className="text-4xl font-bold mb-12 text-gray-800"
         initial={{ opacity: 0, y: -20 }}

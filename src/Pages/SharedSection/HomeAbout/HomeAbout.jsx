@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const HomeAbout = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 justify-between px-4 py-10 bg-white">
+        <div className="grid grid-cols-1 md:grid-cols-2 justify-between px-4 py-10 ">
             {/* Left Side: Text Content */}
             <motion.div 
                 initial={{ opacity: 0, x: -50 }} 
